@@ -1,0 +1,29 @@
+
+/*       Nav Bar      */
+
+.nav-item {
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 41px;
+  color: #a00e16;
+}
+
+.navbar {
+  background-color: #f2dfd2;
+}
+
+/*    colours     
+
+bck neutral   #f2dfd2
+neutral org   #edc1a7
+neutral lines #d9af95
+red           #a00e16
+dark red      #720503
+brown         #523028
+green         #2c564f
+dark green    #0f231f    
+*/
