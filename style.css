@@ -1,3 +1,23 @@
+/*      Body      */
+
+.bleh {
+  border: 2px solid pink;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
+
+a {
+  color: black;
+}
+
+.title-text {
+  font-weight: 700;
+  font-size: 130px;
+  letter-spacing: 8px;
+}
 
 /*       Nav Bar      */
 
@@ -16,7 +36,63 @@
   background-color: #f2dfd2;
 }
 
-/*    colours     
+#navbarMenu {
+  max-width: 1330px;
+}
+
+/*      Hero      */
+
+.hero {
+  background-color: #f2dfd2;
+  height: 700px;
+}
+
+
+.col-hero-text {
+  z-index: 1;
+  position: absolute;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.hero-me {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.social-links a {
+  font-size: 35px;
+  color: black;
+}
+/*       Portfolio       */
+
+#portfolio {
+  background-color: #2c564f;
+  color: #f2dfd2;
+}
+
+/*       Responsive      */
+
+@media (min-width: 992px) {
+
+  .right-text {
+    text-align: right;
+  }
+
+}
+
+/*  Screen sizes
+
+xs      <576px
+small   ≥576px
+medium  ≥768px
+large   ≥992px
+xl      ≥1200px     
+*/
+/*   Colours     
 
 bck neutral   #f2dfd2
 neutral org   #edc1a7

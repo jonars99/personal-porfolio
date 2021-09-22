@@ -2,51 +2,138 @@
 
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" crossorigin="anonymous"/>
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
-    <link rel="icon" href="" type="image/png"/>
-    <title>Joanna Redihough Web Dev</title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel="icon" href="./images/favicon-32.png" type="image/png" />
+  <title>Joanna Redihough Web Developer</title>
+</head>
 
-  <body>
+<body>
 
-    <!--Nav Bar -->
-    
-    <div class="container-fluid p-0 ">
-      <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">
-          <i class="fas fa-circle"></i>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#">Portfolio</a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-          </div>
+  <!--Nav Bar -->
+
+  <div class="container-fluid p-0 m-0" id="top">
+    <nav class="navbar navbar-expand-md py-2 px-0 m-0">
+      <a class="navbar-brand  mr-0 ml-3" href="#">
+        <i class="fas fa-circle"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse mr-5" id="navbarMenu">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="#portfolio">portfolio</a>
+          <a class="nav-item nav-link" href="#">about</a>
+          <a class="nav-item nav-link pr-0" href="#">contact</a>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+
+  <div class="container-fluid hero pt-3">
+
+    <div class="row d-flex mb-0 pb-0">
+
+      <div class="col-7 pl-4 pr-0 pt-4 mx-5 col-hero-text">
+        <h1 class="title-text">Hi,<br />I'm Joanna</h1>
+        <h6>an aspiring web developer currently studying at <a href="https://www.altcademy.com/">Altcademy</a></h6>
+        <div class="social-links d-flex justify-content-end pt-5 mr-n4">
+          <a href="#"><i class="fab fa-linkedin px-3"></i></a>
+          <a href="#"><i class="fab fa-github-alt"></i></a>
+        </div>
+      </div>
+
+      <div class="col-5 ml-auto hero-right pt-4 pb-5 pl-0 mr-5 pr-5">
+        <img class="img-fluid hero-img rounded" src="./images/hero-pic.png"
+          alt="simple illustration of coding a website" />
+        <img class="img-fluid hero-me rounded" src="./images/hero-me.png"
+          alt="simple profile-pic style digital illustration of Joanna" />
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+
+  <div class="container-fluid py-1 mt-n2" id="portfolio">
+
+    <div class="row mt-5 pt-3">
+      <div class="col-8 pl-4 mx-5">
+        <h1 class="title-text">Portfolio</h1>
+      </div>
     </div>
 
-    <div class="container-fluid hero">
-    </div>
+    <div class="row mt-5">
 
-    <div class="container-fluid portfolio">
-    </div>
+      <div class="col-6 d-flex justify-content-center">
+        <img class="img-fluid ml-5 pl-5" src="https://via.placeholder.com/450x300" />
+      </div>
 
-    <div class="container-fluid about">
-    </div>
+      <div class="col-5 d-flex flex-column justify-content-center pl-4">
+        <h6>Apple Clone</h6>
+        <p><small>This project was the first in Altcademy's assignments, to clone the home page of Apple using html and css.
+        </small></p>
+      </div>
 
-    <footer></footer>
+    </div><!--row for portfolios-->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  </body>
+    <div class="row mt-5">
+
+      <div class="col-6 d-flex justify-content-center">
+        <img class="img-fluid ml-5 pl-5" src="https://via.placeholder.com/450x300" />
+      </div>
+
+      <div class="col-5 d-flex flex-column justify-content-center pl-4">
+        <h6>Newsweek Clone</h6>
+        <p><small>This website was created utilizing html, custom css and the grid structue of <b>Bootstrap 3</b>, including mobile <b>responsive</b> design.
+        </small></p>
+      </div>
+
+    </div><!--row for portfolios-->
+
+    <div class="row mt-5">
+
+      <div class="col-6 d-flex justify-content-center">
+        <img class="img-fluid ml-5 pl-5" src="https://via.placeholder.com/450x300" />
+      </div>
+
+      <div class="col-5 d-flex flex-column justify-content-center pl-4">
+        <h6>Airbnb Press Clone</h6>
+        <p><small>Using the current Airbnb Newsroom as a reference, <b>Bootstrap 4</b> was used to form the layout, navigation bar with dropdown menu and a <b>scrollable row</b>.
+        </small></p>
+      </div>
+
+    </div><!--row for portfolios-->
+
+  </div> <!-- container -->
+
+  <div class="container-fluid about">
+  </div>
+
+  <footer></footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
