@@ -76,14 +76,6 @@ a {
 
 /*       Responsive      */
 
-@media (min-width: 992px) {
-
-  .right-text {
-    text-align: right;
-  }
-
-}
-
 /*  Screen sizes
 
 xs      <576px
