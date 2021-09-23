@@ -1,5 +1,9 @@
 /*      Body      */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bleh {
   border: 2px solid pink;
 }
@@ -70,8 +74,21 @@ a {
 /*       Portfolio       */
 
 #portfolio {
-  background-color: #2c564f;
+  background: linear-gradient(#2c564f 0%, #0a1a16 70%);
   color: #f2dfd2;
+  letter-spacing: 1px;
+}
+
+.more {
+  color: #edc1a7;
+  font-size: 16px;
+}
+
+/*    About       */
+
+.social-links-about i {
+  color: #f2dfd2;
+  font-size: 35px;
 }
 
 /*       Responsive      */
