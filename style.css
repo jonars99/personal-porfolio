@@ -88,6 +88,18 @@ a:hover {
   font-size: 16px;
 }
 
+#portfolio img {
+  opacity: 85%;
+}
+
+#portfolio img:hover {
+  opacity: 100%;
+}
+
+#info img {
+  opacity: 100%;
+}
+
 /*        About       */
 
 .social-links-about i {
