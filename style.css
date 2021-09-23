@@ -31,7 +31,7 @@ a {
   color: black;
 }
 
-.navbar-brand {
+.logo {
   font-size: 41px;
   color: #a00e16;
 }
@@ -88,6 +88,13 @@ a {
 .social-links-about i {
   color: #f2dfd2;
   font-size: 35px;
+}
+
+/*    Footer      */
+
+footer {
+  background-color: #f2dfd2;
+  font-size: 11px;
 }
 
 /*       Responsive      */
