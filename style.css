@@ -14,10 +14,23 @@ a {
   color: black;
 }
 
+a:hover {
+  color: #2c564f;
+  text-decoration: none;
+}
+
 .title-text {
   font-weight: 700;
   font-size: 130px;
   letter-spacing: 8px;
+}
+
+.arrow-top i {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  color: #720503;
+  font-size: 25px;
 }
 
 /*        Nav Bar        */
