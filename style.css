@@ -31,6 +31,7 @@ a:hover {
   right: 2%;
   color: #720503;
   font-size: 25px;
+  z-index: 2;
 }
 
 /*        Nav Bar        */
@@ -42,8 +43,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 41px;
-  color: #a00e16;
+  height: 41px;
 }
 
 .navbar {
