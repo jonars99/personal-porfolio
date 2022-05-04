@@ -9,4 +9,4 @@ Learn a little about me and take a look at my early projects
 * Deployed to Netlify
 * Built and designed by me
 
-## Check out my updated site (it's better) -> [joannaredihough.com](https://www.joannaredihough.com/)
+### Check out my updated site (it's better) -> [joannaredihough.com](https://www.joannaredihough.com/)
