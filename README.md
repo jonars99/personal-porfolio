@@ -1,2 +1,3 @@
-# personal-porfolio
-altcademy assignment to create a personal porfolio page
+# Personal portfolio website
+
+Version 1.0.0
